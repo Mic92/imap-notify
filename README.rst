@@ -15,9 +15,8 @@ xxxx.
 Installation
 ============
 
-This project has no dependencies except for python itself.
+This project has no dependencies except for python itself::
 
-.. code:: console
    $ pip install "git+https://github.com/Mic92/imap-notify"
 
 Configuration
@@ -29,9 +28,8 @@ look it up in ``~/.config/imap-notify/imap-notify.ini`` assuming that
 To get started copy and modify the ``imap-notify.ini`` template from this
 repository to that path.
 
+usage::
 
-
-.. code:: bash
    while true; do 
      python imap-notify.py
      # or offlineimap/isync
